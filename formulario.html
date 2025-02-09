@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Breaking Bad - Que comience el juego!</title>
+</head>
+<body class="indexyformulario">
+    <h1>"Breaking Bad - Qué comience el juego!"</h1>
+    <form Name="Breaking Bad - Que comience el juego!" method="get" action="mailto:raul.rodriguez@proeducaglobal.com" autocomplete="on" enctype="multipart/form-data">
+        <fieldset>
+            <legend class="titulos1">DATOS PERSONALES OBLIGATORIOS:</legend> 
+            <br>
+            <fieldset>
+                <legend class="titulos2">Nombre, apellidos y email:</legend>
+                Nombre: <input type="text" placeholder="Por ejemplo, Ana" required>
+                <br>Apellidos: <input type="text" placeholder="Por ejemplo, García Pérez" required>
+                <br>Email: <input type="email" placeholder="Por ejemplo, anagarciaperez@gmail.com" required>
+            </fieldset>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend class="titulos1">DATOS PERSONALES OPCIONALES:</legend> 
+            <br>
+            <fieldset>
+                <legend class="titulos2">Número de Identificación Personal:</legend>
+                    DNI: <input type="text" placeholder="Por ejemplo, 50912*****">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="titulos2">Dirección Postal:</legend>
+                    Calle: <input type="text" placeholder="Por ejemplo, calle Goya">
+                    <br>Número: <input type="number" placeholder="Por ejemplo, 6">
+                    <br>Piso: <input type="number" placeholder="Por ejemplo, 10">
+                    <br>Código Postal: <input type="text" placeholder="Por ejemplo, 28007">
+                    <br>Ciudad: <input type="text" placeholder="Por ejemplo, Madrid">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="titulos2">Selecciona tu sexo:</legend>
+                    <input type="radio" name="sexo" value="H"> HOMBRE
+                    <br><input type="radio" name="sexo" value="M"> MUJER
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="titulos2">Fecha de nacimiento:</legend>
+                    Selecciona tu fecha de nacimiento:
+                    <input type="date">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="titulos2">Personaje favorito:</legend>
+                    Elige tu personaje favorito de la serie:
+                    <input type="text" list="personajes">
+                    <datalist id="personajes">
+                        <option>Jessie Pinkman</option>
+                        <option>Walter White</option>
+                        <option>Saul Goodman</option>
+                        <option>Gustavo Fring</option>
+                        <option>Pollos Hermanos</option>
+                        <option>Otros personajes</option>
+                    </datalist>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="titulos2">Comentarios</legend>
+                    A continuación, puedes escribir lo que consideres necesario sobre la serie:
+                    <br>
+                    <br><input id="comentario" type="textarea" placeholder="Estamos deseando conocer tu opinión...">
+            </fieldset>
+        </fieldset>
+        <br>
+        <div>
+        Enviar: <input type="submit" value="enviar" action="mailto:raul.rodriguez@proeducaglobal.com"> 
+        Borrar: <input type="reset" value="borrar">
+        Adjuntar archivos: <input type="file" name="adjunto" accept=multiple>
+        </div>
+        <br>
+    </form>
+</body>
+</html>

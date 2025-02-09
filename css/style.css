@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'FuenteBreakingBad';  
+    font-style: normal;
+    src: url('BreakingBad.ttf') format('truetype');  
+}
+
+table {
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    border-spacing: 5px;
+    size: 10px;
+}
+
+
+td {
+    text-align:  center;
+    width: 80px;
+    height: 80px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkblue;
+}
+
+form {
+    background-color: rgba(153, 209, 235, 0.633);
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    color: darkblue;
+    text-align: left;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color: rgba(0, 0, 255, 0.386);
+}
+
+input {
+    background-color: rgba(236, 238, 239, 0.307);
+    color: rgb(12, 11, 11); 
+}
+
+div {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.titulos1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulos2 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#comentario {
+    width: 650px;
+    height: 100px;
+}
+
+#frase {
+    font-family: "FuenteBreakingBad";
+    font-size: 20px;
+}
+
+.indexyformulario {
+    font-family: Helvetica;
+    color: white; 
+    text-align: center;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fondobody {
+    background-color: #0c3e11;
+    font-family: Helvetica;
+    color: black; 
+    text-align: center;
+}
+
+.letra {
+    text-align: center;
+    font-family: Helvetica;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nombre {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10px;
+    color: black
+}
+
+.fondoverde1 {
+    background-color:#a8cf45;
+}
+
+.fondoverde2 {
+    background-color: rgb(212, 238, 128);
+}
+
+.fondoamarillo {
+    background-color: lightyellow;
+}
+
+.fondocaqui {
+    background-color: rgb(121, 152, 59);
+}
+
+.fondocaquioscuro {
+    background-color: rgb(64, 84, 28);
+}
+
+.fondogris {
+    background-color: rgb(155, 155, 155);
+}
+
+.fondoverdeoscuro {
+    background-color: #15541c;
+}
+
+#fondomorado {
+    background-color: rgb(202, 117, 244);
+}
+
+#HA {
+    width: 80px;
+    height: 160px;
+    object-fit: fill;
+}
+
+.imagencelda {
+    width: 60px;
+    height: 70px;
+}
+
+#cabecera {
+    width: 50%;
+    height: 50%;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+.tabla2 {
+    background-color: rgb(183, 193, 44);
+    padding: 5px;
+}
