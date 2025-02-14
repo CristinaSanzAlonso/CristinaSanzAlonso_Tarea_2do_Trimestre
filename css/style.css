@@ -58,6 +58,10 @@ div {
     text-align: center;
     color: black;
     font-weight: bold;
+    margin: 0%;
+    max-width: 80px;
+    max-height: 80px;
+    display:unset;
 }
 
 .titulos1 {
@@ -103,13 +107,16 @@ div {
     color: black;
     font-size: 40px;
     font-weight: bold;
+    margin: 0;
+    
 }
 
 .nombre {
     text-align: center;
     font-family: Helvetica;
     font-size: 10px;
-    color: black
+    color: black;
+    margin: 0
 }
 
 .fondoverde1 {
@@ -147,7 +154,8 @@ div {
 #HA {
     width: 80px;
     height: 160px;
-    object-fit: fill;
+    object-fit: cover;
+    display: block;
 }
 
 .imagencelda {
@@ -156,8 +164,8 @@ div {
 }
 
 #cabecera {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
 }
 
 #logo {
@@ -174,5 +182,6 @@ div {
 
 .tabla2 {
     background-color: rgb(183, 193, 44);
-    padding: 5px;
+    padding: 0px;
+    margin: 0 auto;
 }
